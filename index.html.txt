@@ -2,6 +2,7 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benim Portfolyom - Ödev 1</title>
 </head>
 <body>
@@ -23,27 +24,25 @@
         
         <h3>İlgi Alanlarım</h3>
         <ul>
-            <li>Siber Güvenlilk Uygulamaları</li>
+            <li>Siber Güvenlik Uygulamaları</li>
             <li>Mobil Oyun Tasarımı</li>
-            <li>Web programlama</li>
+            <li>Web Programlama</li>
             <li>Yapay Zeka Uygulamaları</li>
         </ul>
 
-        <p>Beni buradan takip edebilirsiniz: <a href="https://www.linkedin.com/in/nagihan-ahmet%C3%A7ik-58797a356/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BN0f%2B8U%2FAQKmbwPWcciQyDQ%3D%3D" target="_blank">LinkedIn Profilim</a></p>
+        <p>Beni buradan takip edebilirsiniz: <a href="https://www.linkedin.com/in/nagihan-ahmet%C3%A7ik-58797a356/" target="_blank">LinkedIn Profilim</a></p>
     </section>
 
     <hr>
 
     <section id="dersler">
         <h2>Aldığım Dersler</h2>
-        <table border="5">s
-            <thead>
+        <table border="1"> <thead>
                 <tr>
                     <th>Gün/Saat</th>
                     <th>Ders Adı</th>
                     <th>Öğretim Elemanı</th>
                 </tr>
->
             </thead>
             <tbody>
                 <tr>
@@ -58,7 +57,7 @@
                 </tr>
                 <tr>
                     <td>Salı 8.30</td>
-                    <td>Veritabanı </td>
+                    <td>Veritabanı</td>
                     <td>Dr. Öğr. Üyesi Ayşe Eldem</td>
                 </tr>
                 <tr>
@@ -67,13 +66,13 @@
                     <td>Doç.Dr. Şaban Gülcü</td>
                 </tr>
                 <tr>
-                    <td>Çarşamba 8.30 </td>
+                    <td>Çarşamba 8.30</td>
                     <td>Mikrokontrol Tabanlı Sistem Tasarımı</td>
                     <td>Dr. Öğr. Üyesi Cemaleddin Şimşek</td>
                 </tr>
                 <tr>
                     <td>Çarşamba 13.30</td>
-                    <td>Proje Yönetimi </td>
+                    <td>Proje Yönetimi</td>
                     <td>Dr. Öğr. Üyesi Mehmet Cabir Akkoyunlu</td>
                 </tr>
                 <tr>
@@ -96,7 +95,7 @@
         <h2>Haftalık Çalışma Programım</h2>
         <ol>
             <li><strong>Pazartesi:</strong> Web programlama dersinde işlenen örnekleri pratiğe dökme ve konu tekrarı - Ayrık matematik derslerindeki notları geçirme ve tekrarı</li>
-            <li><strong>Salı:</strong> Veri Tabanı işlenen konuların üzerinden geçme - Yazılım Mühnedisliği notlarını çıkarma ve sonraki haftaya hazırlık</li>
+            <li><strong>Salı:</strong> Veri Tabanı işlenen konuların üzerinden geçme - Yazılım Mühendisliği notlarını çıkarma ve sonraki haftaya hazırlık</li>
             <li><strong>Çarşamba:</strong> Mikrokontrol ders pratiği ve notlarını geçirmek - Seçmeli ders konu tekrarı</li>
             <li><strong>Perşembe:</strong> Mantık Devreleri derste işlenen örneklerin tekrarı, notların temize çekilmesi</li>
             <li><strong>Cuma:</strong> Boş gün - Genel hafta tekrarı, ders analizi</li>
@@ -118,9 +117,7 @@
             <input type="number" id="ogrenciNo" name="ogrenciNo" required><br><br>
 
             <label for="telefon">Telefon No:</label>
-            <input type="number" id="telefon" name="telefon" required><br><br>
-
-            <label for="bolum">Bölüm:</label>
+            <input type="tel" id="telefon" name="telefon" required><br><br> <label for="bolum">Bölüm:</label>
             <select id="bolum" name="bolum">
                 <option value="bilgisayar">Bilgisayar Mühendisliği</option>
                 <option value="yazilim">Yazılım Mühendisliği</option>
