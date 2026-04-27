@@ -1,6 +1,6 @@
 ## Simple HTML Portfolio
 
-Bu proje, Web Programlama dersi kapsamında hazırladığım, semantik (anlamsal) HTML etiketleri kullanılarak oluşturulmuş ilk portfolyo çalışmamdır.
+Bu proje, Web Programlama dersi kapsamında hazırladığım, semantik HTML etiketleri kullanılarak oluşturulmuş ilk portfolyo çalışmamdır.
 
 ## Özellikler
 - **Hakkımda Bölümü:** Kişisel bilgiler ve ilgi alanları.
